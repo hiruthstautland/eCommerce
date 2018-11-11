@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+}
+body{
+    background: #8acadd
+    ;margin: 5px;
+    padding: 5px;
+}
+.main_wrapper{
+    width: 1000px;
+    height: auto;
+    margin: none;    
+}
+.header_wrapper{
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+}
+#banner{
+    height: 100%;
+    float: left;
+}
+#logo{
+    height: 95%;
+    width: 19%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+.menubar{
+    width: 100%;
+    height: 50px;
+    clear: both;
+    background: #4dc7f4;
+}
+#menu{
+    padding-top: 10px;
+    margin: 0;
+    align-content: center;
+    line-height: 30px;
+    float: left;
+}
+#menu li{
+    list-style: none;
+    display: inline;
+}
+#menu a{
+    text-decoration: none;
+    color: blue;
+    padding: 10px;
+    margin: 3px;
+    font-size: 20px;
+    font-family: comic arial sans-serif;
+}
+#menu a:hover{
+    color: red;
+    font-weight: bolder;
+}
+#form{
+    padding-right: 10px;
+    float: right;
+    line-height: 50px;
+    height: 20%;
+    border: 1px solid black;
+}
+.searchInput{
+    border: 1px solid black;
+}
+#content_wrapper{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    background: ;
+    
+}
+#content_area{
+    width: 80%;
+    float: right;
+    background: #dfecf0;
+}
+#sidebar{
+    width: 20%;
+    background: #9a2a2a;
+    float: left;    
+}
+#sidebar_title{
+    background: wheat;
+    color: #9a2a2a;
+    font-size: 22px;
+    font-family: arial;
+    padding: 8px;
+    text-align: center;
+    font-size: bold;
+    text-transform:uppercase;
+}
+#cats{
+    padding: 0px;
+    text-align: center;
+}
+#cats li{
+    list-style: none;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+#cats li:hover{
+    background-color: none;
+    border: 1px solid white;
+}
+#cats a{
+    padding: 8px;
+    margin: 10px;
+    color: wheat;
+    padding: 8px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: Comic sa;
+    clear: both;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+#cats a:hover{
+    font-size: bolder;
+}
+#footer{
+    text-align: center;
+    padding: 30px;
+    width: 1000px;
+    height: 50px;
+    background: #ed7878;
+    clear: both;
+    font-size: 11px;
+}
